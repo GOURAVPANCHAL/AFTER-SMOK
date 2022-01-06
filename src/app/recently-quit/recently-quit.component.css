@@ -1,0 +1,45 @@
+
+.image{
+    /* background-image: url(../../assets/images/DSC01455.JPG); */
+    background-color: #0000ff1a;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    /* background-color: black; */
+height: 88vh;
+width: 100%;
+top: 75px;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    max-width: 780px;
+    margin-bottom: 20px;
+    line-height: normal;
+    margin-top: 60px;
+
+
+
+}h2{
+    color: black;   
+    font-family: cursive;
+    display: unset;
+    font-size: 25px;
+    max-width: 780px;
+    line-height: normal;
+    margin-top: 3pc;
+}
+button{
+    BORDER: none;
+    background-color: #0554c6;
+    padding: 9px;
+    color: white;
+    margin: 20px;
+    width: 50%;
+}

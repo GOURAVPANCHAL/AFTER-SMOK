@@ -1,0 +1,58 @@
+<!-- <app-header></app-header> -->
+<div class="home_containner">
+    <div class="container">
+        <div class="main-section">
+
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-12">
+                    <div class="maintitle">
+                        <p>Our<span class="mainTextColor"> Products</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg container-fluid" style="background-color: white;">
+    <div style="padding: 60px 0px 46px 0px;">
+        <div class="product">
+            <h2 class="sectionHeading" style="padding: 0PX;"><span class="mainTextColor">After</span> Smoke</h2>
+
+            <h4 style="color: #001675;">Support your health on a molecular level.</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6" *ngFor="let product of productList; let i = index">
+                <div class="row">
+
+                    <div routerLink="/product-detail/{{product?.url}}" class="col-md-5 img1">
+                        <img style="height: 23pc;
+                        width: 260px;" [src]='product.img'>
+                    </div>
+                    <!-- </ng-container> -->
+                    <div class="col-xl-6">
+                        <div>
+
+                            <div class="alignment" style="padding-top: 43px;">
+
+                                <a href="/home" style="list-style-type: none;">Brand: After-Smoke</a>
+
+                                <h1 style="color: black;">{{product.heading}}</h1>
+                                <hr>
+                                <h3 style="color: black;"> {{product.desc}}</h3>
+                                <div class="buttOn">
+                                    <button (click)="addProduct(i)" class="btn btn-primary"
+                                        style="background-color: #301e27; color: white;">Add To Cart</button>
+                                    <button (click)="addProduct(i)" onclick="window.location='/Cart';"
+                                        class="btn btn-primary"
+                                        style="background-color: #301e27; color: white; margin: 10px; width:110px;">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <app-footer></app-footer> -->

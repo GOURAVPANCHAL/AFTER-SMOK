@@ -1,0 +1,43 @@
+.footer {
+    color:white;
+    padding: 30px 0px;
+    background-color: #0554c6;
+}
+
+.footercontent{
+    display: flex;
+    flex-direction: column;
+}
+.footer .heading{
+    color: #fff;
+    font-weight: 400!important;
+
+}
+
+.newslatterheading{
+    text-transform: uppercase;
+}
+.footer .footercontent .p{
+    color: #fff;
+    padding: 5px 0px;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.footer .social p{
+    color: #fff;
+    font-weight: 100;
+}
+
+.form_label {
+    color: white;
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+.signup_button{
+    margin-top: 15px;
+   background-color: #4452a0;
+    color: white;
+    width: 110px;
+    margin-left: -12px;
+}

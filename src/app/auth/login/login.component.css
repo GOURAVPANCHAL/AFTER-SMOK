@@ -1,0 +1,128 @@
+.home_containner{
+  background-image: url('../../../assets/images/background.jpg');
+  min-height: 500px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .content{
+    padding:25px 40px;
+  }
+
+  .registerCard{
+    margin: 0 20px;
+    border-radius: 8px;
+    padding: 20px 0;
+    box-shadow: 0 0.125rem 1.25rem rgba(0,0,0,.075)!important;
+  }
+  .cardBody{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .heading_wrapper{
+    text-align: center;
+  }
+
+  .form_section{
+    padding: 10px 25px;
+
+  }
+
+  .form_section input{
+      /* border: 0.5px solid #d4d4d4; */
+      box-shadow: 0px 0px 5px 5px rgba(206,212,218,.075)!important;
+  }
+  .course_select{
+    font-size: 13px;
+  }
+
+  .course_select option{
+    padding: 5px 10px;
+  }
+
+  .maintitle {
+    padding: 10px  72px 0 0;
+  }
+  .maintitle p {
+    font-size:55px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.2;
+  }
+
+  .mainsection{
+    padding-top: 115px;
+  }
+
+  .form_button{
+    margin-top: 15px;
+    padding: 5px 30px;
+  }
+  .checkboxes{
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .checkboxes input{
+    padding: 20px
+  }
+  .checkboxes label{
+    font-size: 12px;
+    color: #424242;
+    margin-left: 8px;
+  }
+  .login_link a{
+    font-weight: bold;
+  }
+  .login_link a:hover{
+    color: #8cda3f;
+    text-decoration: none;
+  }
+  .login_link{
+    font-weight: 200;
+   color: #ffffff;
+   font-size: 13px;
+  }
+
+  .content-section{
+    padding:10px 32px;
+  }
+
+  .login-button{
+    color: #ffffff;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-shadow:0px 0px 2px 2px rgba(0,0,0,0.035)!important;
+  }
+  .facebook{
+    background-color: #3b5998;
+  }
+
+  .google{
+    background-color: #4285f4;
+  }
+
+  .linesection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .linesection p{
+    margin: 5px;
+  }
+
+  .line{
+
+    height: 1px;
+    background-color: #dedede;
+    width: 100%;
+  }
+
+  .email{
+    color: #000000;
+    border:1px solid #000000;
+  }
+
+

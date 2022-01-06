@@ -1,0 +1,73 @@
+<div *ngIf="cartArr.length <= 0" style="background: #f1f3f6; padding: 100px 0px 50px 0px;">
+    <div class="container">
+        <div class="row" style="background-color: white; box-shadow: 0px 0px 4px 0px gray">
+            <div class="col-md-4">
+                <h2>My Cart</h2>
+            </div>
+            <div class="col-md-4" style="padding: 90px 0px 90px 0px">
+
+                <img src="assets/images/cart.png" style="width: 50%; margin-left: 95px;">
+                <div>
+                    <p>Your cart is empty!</p>
+                    <p>Add items to it now.</p>
+                </div>
+                <div class="nav-item navItem">
+                    <button routerLink="/Our-Products" class="btn custom_button greennThemeBtn">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-container *ngIf="cartArr.length">
+    <div class="row">
+        <ng-container *ngFor="let product of cartArr; let i = index">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="img1 col-md-5"><img style="height: 404px;
+        width: 307px; padding: 30px;" [src]='product.img'>
+                    </div>
+                    <div class="col-md-4" style="padding-top: 80px;">
+                        <h3 style="color: #001675;">{{product.heading}}</h3>
+                        <h2 style="color: #001675;"> {{product.desc}}</h2>
+                        <div class="buttOn">
+                            <button (click)="removeFromCart(i)" class="btn btn-primary"
+                                style="background-color: #301e27; color: white;">remove from cart</button>
+                            <input style="margin-top: 20px; width: 58px;" type="number" value="1" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</ng-container>
+<!-- <ng-container *ngIf="cartArr.length">
+    <div class="row">
+        <div style="padding-top: 30px;" *ngFor="let product of cartArr; let i = index">
+            <div class="col-md-6">
+                <div class="row">
+
+                    <div class="col-md-3  ">
+                        <img style="height: 404px;
+                        width: 307px; padding: 30px;" [src]='product.img'>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 alignment" style="padding-top: 75px;">
+                            <h5 style="color: #001675;">{{product.heading}}</h5>
+                            <h3 style="color: #001675;"> {{product.desc}}</h3>
+                            <div class="buttOn">
+                                <button (click)="removeFromCart(i)" class="btn btn-primary"
+                                    style="background-color: #301e27; color: white;">remove from cart</button>
+                                <input style="margin-top: 20px; width: 58px;" type="number" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</ng-container>
+<app-footer></app-footer> -->

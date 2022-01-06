@@ -1,0 +1,82 @@
+<div class="main_containner home_containner">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="card registerCard">
+            <div class="card-body cardBody">
+              <div class="heading_wrapper">
+                <h2 class="heading">Sign Up</h2>
+
+                <p class="subheading">We offer you the best online courses in Python, Digital, Marketing, Investment,
+                  and
+                  Finance</p>
+              </div>
+              <div class="form_section">
+                <form [formGroup]="registerForm">
+                  <div class="form-group">
+                    <label class="form_label" for="firstname">First Name</label>
+                    <input type="text" formControlName="firstName" class="form-control" id="firstname">
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="lastname">Last Name</label>
+                    <input type="text" formControlName="lastName" class="form-control" id="lastname">
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="course">Choose the course</label>
+                    <select class="form-control course_select" formControlName="courses" id="course">
+                      <option>PYTHON</option>
+                      <option>JavaScript</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="mobile">Phone Number</label>
+                    <input type="tel" class="form-control" formControlName="phoneNumber" maxlength="10" id="mobile">
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="email">Email</label>
+                    <input type="email" formControlName="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="password">Password</label>
+                    <input type="password" formControlName="password" class="form-control" id="password">
+                  </div>
+                  <div class="form-group">
+                    <label class="form_label" for="Cpassword">Confirm Password</label>
+                    <input type="password" formControlName="confirmPassword" class="form-control" id="Cpassword">
+                  </div>
+                  <div class="form-check checkboxes">
+                    <input type="checkbox" formControlName="joinCommunity" class="form-check-input" id="community">
+                    <label class="form-check-label" for="community">Join the
+                      community</label>
+                  </div>
+
+                  <div class="form-check checkboxes">
+                    <input type="checkbox" class="form-check-input" formControlName="agreeTermCond"
+                      id="termandconditions">
+                    <label class="form-check-label" for="termandconditions">I agree to the term & conditions and privacy
+                      policy</label>
+                  </div>
+                  <div class="form-check checkboxes">
+                    <input type="checkbox" formControlName="newsLetter" class="form-check-input" id="newsletter">
+                    <label class="form-check-label" for="newsletter">I want to subscribe the newsletter</label>
+                  </div>
+
+                  <button type="submit" class="btn signup_button form_button">Sign Up</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="maintitle">
+            <p>Reach your goals with <span class="mainTextColor">After Smoke</span></p>
+            <span class="login_link">Already a member? <a routerLink="/login" class="login_link">LOG IN</a></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

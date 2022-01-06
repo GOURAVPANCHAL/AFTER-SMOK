@@ -1,0 +1,41 @@
+<div class="image">
+    <div class="overlay">
+        <div class="container">
+            <ng-container *ngIf="quitType == 'wanttoquit'">
+                <div class="row">
+                    <div class="col-md-8" style="display: inline-grid">
+                        <h1><span style="color: #0554c6;">Congratulations </span>for one best decison of your life</h1>
+                        <br>
+                        <h2>If you allow we can help you ease up your quitting and boost up your detoxification and
+                            restoration.
+                        </h2>
+                        <!-- <a routerLink="/Our-Products"><button> YOU JUST QUIT</button></a> -->
+                        <button style="text-transform: capitalize;" routerLink="/Our-Products">QUIT WITH
+                            DETOXIFICATION</button>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="quitType == 'recentlyquit'">
+                <div class="row">
+                    <div class="col-md-8" style="display: inline-grid">
+
+                        <h2>Congratulations</h2>
+                        <button routerLink="/Our-Products">SALES</button>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="quitType == 'detoxifylungs'">
+                <div class="row">
+                    <div class="col-md-8" style="display: inline-grid">
+
+                        <!-- <h1><span style="color: blue;">Congratulations </span>for one best decison of your life</h1><br> -->
+                        <h2>But You Must Be Curious If You Can Stay Healthy Keeping You Smoking As It Is.</h2>
+                        <h2>Parallarly Detoxifying And Greatly Reducing The Tar Deposition In Your Lungs</h2>
+                        <button routerLink="/Our-Products"> SALES</button>
+                    </div>
+                </div>
+            </ng-container>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+/* .testimonial{
+    background-image: url('../../assets/images/after-smoke.jpg');
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} */
+
+.contectSection{
+    padding-top: 115px;
+    
+}
+.testimonial .sectionHeadingLeft{
+font-size: 30px!important;
+margin-left: -45px;
+color: #242c2c;
+
+margin-top: 21px;
+
+}
+.para{
+    margin-left: -45px;
+    color: grey;
+    font-size: 12px;
+}
+h4{
+    margin-left: -45px;
+    font-weight: 500;
+    color: grey;
+    
+}
+

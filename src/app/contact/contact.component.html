@@ -1,0 +1,53 @@
+<div class="home_containner">
+  <div class="container">
+    <div class="main-section">
+
+      <div class="row">
+        <div class="col-md-5 col-sm-12 col-xs-12">
+          <div class="maintitle">
+            <p><span class="mainTextColor" style="color: white;">Contact <span style="color: #0554c6;">Us</span> </span>
+            </p>
+          </div>
+        </div>
+        <!-- <div class=" mobileImage col-lg-7 col-md-7 col-xl-7">
+            <img style=" position: absolute;
+            top: 15.1%;
+            width: 500px;
+            height: 85%;
+            left: 275px;" src="../../assets/images/1.png">
+          </div> -->
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-xl-6 formSection">
+      <h1>Contact</h1>
+      <h3>feel free to contact us any time. we will get back to you as soon as we can!</h3>
+      <div [formGroup]="formGroup">
+        <mat-form-field class="displayBlock" appearance="fill">
+          <mat-label>Name</mat-label>
+          <input type="text" matInput>
+
+        </mat-form-field>
+        <mat-form-field class="displayBlock" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput>
+
+        </mat-form-field>
+        <mat-form-field class="displayBlock" appearance="fill">
+          <mat-label>Message</mat-label>
+          <input type="message" matInput>
+
+        </mat-form-field>
+        <button type="submit" (click)="submit()" class="btn signup_button form_button">Send</button>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>

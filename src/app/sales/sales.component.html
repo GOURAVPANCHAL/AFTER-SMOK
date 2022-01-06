@@ -1,0 +1,119 @@
+<div class="row">
+    <div class="col-md-7">
+        <div class="container" style="padding: 3rem 5rem 3rem 7rem;">
+            <h2>AFTER SMOKE</h2>
+            <h3>Contact information
+            </h3>
+            <form [formGroup]="emailform" (ngSubmit)="emailUser()">
+
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" formControlName="email" name="email">
+                </div>
+
+                <!-- inputfields -->
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" formControlName="checkbox" name="checkbox">
+                    Email me with news and offers
+                </div>
+                <h2>Shipping address
+                </h2>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="country" formControlName="country" placeholder="country" name="country">
+                            <option>select country</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Aland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BY">Belarus</option>
+                            <option value="BE">Belgium</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BJ">Benin</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="fname" formControlName="fname" name="fname" placeholder="first Name"
+                                class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="Lname" formControlName="Lname" name="Lname" placeholder="Last Name"
+                                class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="address" formControlName="address" name="address" placeholder="address"
+                        class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="appartment, suit,etc. (optional)"
+                        formControlName="text" name="text">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="form-group">
+                            <input type="city" class="form-control" placeholder="city" formControlName="city"
+                                name="city">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <select name="state" placeholder="State" name="state" class="form-control">
+                                <option value="">select</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Puducherry">Puducherry</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="pin" class="form-control" placeholder="pincode" formControlName="pincode"
+                                name="pincode">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" formControlName="phoneNumber" placeholder="phone"
+                        maxlength="10" name="phoneNumber">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" formControlName="saveinfo" name="saveinfo">
+                    Save this information for next time
+                </div>
+                <!-- <button id="submitbutton" [disable]="!emailUser.value" type="submit">continue to Shipping</button> -->
+                <button id="submitbutton" type="submit">continue to Shipping</button>
+                <li class="nav-item navItem" style="list-style-type: none;
+                display: inline-block;">
+                    <a class="nav-link" href="/sales">Return to cart</a>
+                </li>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-5" style="background-color: #fafafa;">
+    </div>
+</div>

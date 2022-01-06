@@ -1,0 +1,10 @@
+.icon-facebook{
+   
+    display: flex;
+    
+}
+.icon-facebook img{
+    margin: 0px 5px;
+    height: 15px;
+    width: 15px;
+}

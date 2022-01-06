@@ -1,0 +1,76 @@
+.home_containner {
+  /* background-image: url(../../../assets/images/); */
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  padding: 20px 40px;
+}
+.registerCard {
+  border-radius: 8px;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.cardBody {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.heading_wrapper {
+  text-align: center;
+}
+
+.form_section {
+  padding: 10px 25px;
+}
+
+.form_section input {
+  /* border: 0.5px solid #d4d4d4; */
+  box-shadow: 0px 0px 5px 5px rgba(206, 212, 218, 0.075) !important;
+}
+.course_select {
+  font-size: 13px;
+}
+
+.course_select option {
+  padding: 5px 10px;
+}
+
+.maintitle {
+  padding: 125px 0 0 72px;
+}
+.maintitle p {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.form_button {
+  margin-top: 15px;
+  padding: 5px 30px;
+}
+.checkboxes {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.checkboxes input {
+  padding: 20px;
+}
+.checkboxes label {
+  font-size: 12px;
+  color: #424242;
+  margin-left: 8px;
+}
+.login_link a {
+  font-weight: 500;
+  color: blue;
+}
+.login_link a:hover {
+  color: #8cda3f;
+  text-decoration: none;
+}
+.login_link {
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 13px;
+}

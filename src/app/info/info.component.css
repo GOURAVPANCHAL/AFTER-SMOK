@@ -1,0 +1,83 @@
+.Sectioninfo{
+    padding: 30px 0px;
+}
+.subsection{
+    padding: 20px 0px;
+}
+.imgsection{
+    position: relative;
+}
+.infoimg{
+    position: absolute;
+    /* left: 28.3%; */
+    /* top: 20%; */
+    height: 100%;
+    width: 112%;
+}
+.products{
+    background-image: url(../../assets/images/drawing.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0px  0px 0px;
+
+}
+
+.after-smokes{
+    background-image: url(../../assets/images/DSC01713.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    box-shadow: 0px 5px 13px 0px grey;
+    border-radius: 1px 50px 1px 50px;
+}
+.opacity{
+    background: #00000026;
+    padding: 19px;
+    border-radius: 9px;
+    margin-bottom: 26%;
+    box-shadow: 0px 2px 9px -2px #000;
+}
+/* .bestseller{
+    text-align: center;
+    color: black;
+    padding: 70px;
+} */
+.images img{
+    width: inherit;
+}
+
+p{
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+    line-height: initial;
+}
+.diffrent{
+    color: white;
+    background-color: #a1a1a1;
+    width: 160px;
+text-align: center;
+border-radius: 7px;
+}
+
+
+/* css for mobile devices */
+
+@media only screen and (max-width: 600px) {
+  
+
+    .Sectioninfo{
+        padding: 10px 41px;
+    }
+
+    .info .firstrow{
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+  }
+  /* css for mobile devices ends here*/
+
+

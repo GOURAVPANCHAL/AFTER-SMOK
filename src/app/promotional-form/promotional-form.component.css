@@ -1,0 +1,36 @@
+/* 
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+
+  }
+  
+  .promotional {
+   position: relative;
+    background-image: url('../../assets/images/cig.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .overlay{
+    background-color: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .promotional .form_label{
+      color:#fff;
+  }
+ .form-control{
+    height: calc(0.5em + .75rem + 10px);
+ }
+ .promotional .signup_button{
+   color: white;
+   background-color: #0d5aa6;
+   display: block;
+   width: 100%;
+   margin-bottom: 20px;
+ } */

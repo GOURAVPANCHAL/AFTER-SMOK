@@ -1,0 +1,28 @@
+ p{
+font-family: cursive;
+}
+h1 , h2 ,h3{
+    font-family: cursive;
+    color: #0554c6;
+}
+.focus{
+    background-color: #301e27;
+     color: white;
+      width: 110px;
+       border: none;
+     box-shadow: none;
+     margin: 5px;
+}
+/* p{
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+    line-height: initial;
+}
+h1{
+    color: white;
+    background-color: #a1a1a1;
+    width: 160px;
+text-align: center;
+border-radius: 7px;
+} */
