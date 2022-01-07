@@ -1,10 +1,8 @@
 .home_containner {
     background-image: url('../../assets/images/shutterstock_458145142.jpg');
-    /* background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); */
     height: 60%;
     background-size: cover;
     background-repeat: no-repeat;
-  
   }
   
   .content {
@@ -66,4 +64,13 @@ padding-right: 80px;
   .column{
     display: none;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .home_containner{
+background-position: inherit;
+
+  }
+
+
 }
