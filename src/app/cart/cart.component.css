@@ -50,10 +50,14 @@ p{
 }
 @media only screen and (max-width: 600px) {
   .img1{
-    margin: 70px 0px -79px 60px !important;
+    margin: 40px 0px -79px 40px !important;
   }
   .cartImg{
     text-align: center;
     padding-top: 40px !important;
+  }
+
+  .greennThemeBtn{
+  margin-left: 85px;
   }
 }

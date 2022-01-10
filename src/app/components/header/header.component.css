@@ -41,8 +41,13 @@
   color: black;
 }
 .icon{
-  position: absolute;background-color:red; color: white; width: fit-content; border-radius: 50%; top: -6px;
-  right: -7px;
+  position: absolute;
+  background-color:red;
+   color: white; 
+   width: fit-content;
+    border-radius: 50%;
+     top: -8px;
+  right: -16px;
   padding: 0px 6px; font: small-caption;
           }   
 @media only screen and (max-width: 600px) {

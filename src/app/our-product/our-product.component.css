@@ -42,4 +42,8 @@
     padding-top: 94px;
     font-size: 42px;
   }
+  .maintitle p{
+    line-height:19pc !important ;
+
+  }
 }

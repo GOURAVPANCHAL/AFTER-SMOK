@@ -69,8 +69,11 @@ padding-right: 80px;
 @media only screen and (max-width: 600px) {
   .home_containner{
 background-position: inherit;
-
   }
-
-
+  .formSection{
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }

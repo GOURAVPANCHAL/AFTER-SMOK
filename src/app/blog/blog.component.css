@@ -22,3 +22,10 @@
 .cardshadow:hover {
   transform: scale(1.1);
 }
+@media only screen and (max-width: 600px) {
+  .blog .sectionHeading{
+    font-size: 25px !important;
+
+  }
+
+}

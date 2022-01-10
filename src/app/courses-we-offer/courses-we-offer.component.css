@@ -55,7 +55,7 @@ align-items: center;
   height: 50vh !important;
  }
  .sectionHeading{
- font-size: 30px !important; 
+ font-size: 25px !important; 
 }
  .viewheight{
    max-height: 50vh !important;
@@ -63,7 +63,7 @@ align-items: center;
 
  .spacing{
  line-height: 25px !important;
-  
+  padding-top: 7px !important;
  }
 }
 
