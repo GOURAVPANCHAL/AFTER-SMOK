@@ -54,11 +54,17 @@ align-items: center;
  .imageheight{
   height: 50vh !important;
  }
-
+ .sectionHeading{
+ font-size: 30px !important; 
+}
  .viewheight{
    max-height: 50vh !important;
  }
 
+ .spacing{
+ line-height: 25px !important;
+  
+ }
 }
 
  

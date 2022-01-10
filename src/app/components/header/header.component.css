@@ -49,4 +49,7 @@
  .headericon {
  width: 50% !important;;
  }
+ .iconheight{
+   height: 3vh !important;
+ }
 }
