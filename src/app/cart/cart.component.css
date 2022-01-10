@@ -48,3 +48,12 @@ p{
 .btn-primary :focus{
   outline: none;
 }
+@media only screen and (max-width: 600px) {
+  .img1{
+    margin: 70px 0px -79px 60px !important;
+  }
+  .cartImg{
+    text-align: center;
+    padding-top: 40px !important;
+  }
+}

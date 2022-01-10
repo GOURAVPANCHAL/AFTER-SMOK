@@ -28,7 +28,7 @@ h1 {
 
 }h2{
     color: black;   
-    font-family: cursive;
+    /* font-family: cursive; */
     display: unset;
     font-size: 25px;
     max-width: 780px;

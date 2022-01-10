@@ -27,14 +27,13 @@
                     <div class="img1 col-md-5"><img style="height: 404px;
         width: 307px; padding: 30px;" [src]='product.img'>
                     </div>
-                    <div class="col-md-4" style="padding-top: 80px;">
+                    <div class="col-md-4 cartImg" style="padding-top: 80px;">
                         <h3 style="color: #001675;">{{product.heading}}</h3>
                         <h2 style="color: #001675;"> {{product.desc}}</h2>
                         <div class="buttOn">
                             <button (click)="removeFromCart(i)" class="btn btn-primary"
                                 style="background-color: #301e27; color: white;">remove from cart</button>
                             <input style="margin-top: 20px; width: 58px;" type="number" value="1" />
-
                         </div>
                     </div>
                 </div>

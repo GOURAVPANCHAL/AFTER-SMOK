@@ -75,9 +75,12 @@ border-radius: 7px;
     .info .firstrow{
         margin-left:0px;
         margin-right:0px;
+    }
 
+    .products{
+        height: 60%;
+        background-size: contain;
+        margin: 50px 6px -49px 6px;
     }
   }
   /* css for mobile devices ends here*/
-
-
