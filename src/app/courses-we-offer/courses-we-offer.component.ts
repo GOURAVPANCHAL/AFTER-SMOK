@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
     selector: 'app-courses-we-offer',
@@ -39,6 +40,8 @@ export class CoursesWeOfferComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
+        AOS.init();
+
     }
 
     ellipsis(content: string) {
@@ -50,3 +53,4 @@ export class CoursesWeOfferComponent implements OnInit {
     }
 
 }
+

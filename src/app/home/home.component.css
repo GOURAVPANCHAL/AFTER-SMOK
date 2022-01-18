@@ -22,6 +22,10 @@
   color: #ffffff;
   line-height: 1.2;
 }
+
+
+
+
 /* .main-section{
     padding-top: 160px;
   } */
@@ -90,7 +94,7 @@ border-radius: 7px;
      color: white;
      align-items: center;
      z-index: 2;
-     padding: 14pc 8pc 5pc 8pc;
+     padding: 7pc 0pc 14pc 0pc;
      letter-spacing: 2px;
  }
  
@@ -114,3 +118,28 @@ button{
   height: 40px !important;
 }
  }
+
+
+ .carousel .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+  background-image: url("../../assets/images/smoking-ge6181b756_640.jpg");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+  background-image: url("../../assets/images/man-g81b568bd5_640.jpg");
+}
+
+.carousel .carousel-item:last-of-type {
+  background-image: url("../../assets/images/kill-smoke.jpg");
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}

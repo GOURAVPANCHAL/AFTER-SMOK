@@ -10,7 +10,12 @@ align-items: center;
   width: 75px; display: flex;
   justify-content: space-between;
 } */
-
+.imageheight{
+  transition: transform 0.2s ease;
+}
+.imageheight :hover{
+  transform: scale(1.1);
+}
 .image{
   /* background-image: url(../../assets/images/nature\ hd.jpg); */
   background-image: url('../../assets/images/no smoke.jpg');
@@ -49,6 +54,7 @@ align-items: center;
   text-align: center;
   /* color: white; */
  }
+
 
  @media only screen and (max-width: 600px) {
  .imageheight{

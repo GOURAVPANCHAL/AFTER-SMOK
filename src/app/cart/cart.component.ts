@@ -30,6 +30,4 @@ export class CartComponent implements OnInit {
 
     this.mainService.updateCart(this.cartArr.length)
   }
-
-
 }

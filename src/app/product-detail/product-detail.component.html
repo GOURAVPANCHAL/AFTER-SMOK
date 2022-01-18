@@ -9,16 +9,14 @@
                 <div class="col-md-7">
                     <div class="alignment" style="padding-top: 43px;">
                         <a href="/Our-Products" style="list-style-type: none;">Brand: After-Smoke</a>
-
                         <h1 style="color: #001675;">{{product.heading}}</h1>
                         <hr>
-                        <h2 style="color: #001675; 
-                    font-size: 25px;
-                    max-width: 186px;
-                    line-height: initial;">{{product.desc}}</h2>
+                        <h2 style="color: #001675; font-size: 25px; max-width: 186px;line-height: initial;">
+                            {{product.desc}}</h2>
                         <div class="buttOn">
-                            <button (click)="addProduct(product)" class="btn btn-primary focus">Add To Cart</button>
-                            <button (click)="addProduct(product)" class="btn btn-primary focus">Buy Now</button>
+                            <button (click)="addProduct()" class="btn btn-primary focus">Add To Cart</button>
+                            <button (click)="addProduct()" routerLink="/Cart" class="btn btn-primary focus">Buy
+                                Now</button>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-
+import { MainServiceService } from '../services/main-service.service';
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
@@ -15,29 +15,22 @@ export class ProductDetailComponent implements OnInit {
     { img: 'assets/images/3.png', url: 'wellness-new0', heading: 'WELLNESS New0', desc: `Collagen Powder (16 oz) $39.99 ($0.89/dose)` },
     { img: 'assets/images/4.png', url: 'wellness-new1', heading: 'WELLNESS New1', desc: `Collagen Powder (16 oz) $39.99 ($0.89/dose)` },
     { img: 'assets/images/5.png', url: 'wellness-new2', heading: 'WELLNESS New2', desc: `Collagen Powder (16 oz) $39.99 ($0.89/dose)` }
-
-
-
   ]
-  constructor(private route: ActivatedRoute) { }
-
+  cartArr: any = []
+  constructor(private route: ActivatedRoute, private mainService: MainServiceService) { }
   ngOnInit(): void {
     this.ProductDetailId = this.route.snapshot.params['id'];
     console.log(this.ProductDetailId)
-
-
+    this.product = this.productList.find(x => x.url == this.ProductDetailId);
+  }
+  addProduct() {
+    localStorage.removeItem('products');
     this.product = this.productList.find(x => x.url == this.ProductDetailId);
 
-  }
-
-  addProduct(i) {
-    let product = this.productList[i]
+    this.cartArr.push(this.product)
     localStorage.removeItem('products');
-
-    this.product.push(product)
-    // localStorage.removeItem('products');
-    // localStorage.setItem('products', JSON.stringify(this.ProductDetailId))
-    // this.ProductDetailId.emit(JSON.stringify(this.ProductDetailId));
+    localStorage.setItem('products', JSON.stringify(this.cartArr))
+    this.mainService.updateCart(this.cartArr.length)
   }
 }
 

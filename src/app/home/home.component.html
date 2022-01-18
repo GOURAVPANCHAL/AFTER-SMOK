@@ -1,40 +1,42 @@
-<!-- <div class="home_containner">
-  <div class="container">
-    <div class="main-section">
-      <div class="row">
-        <div class="col-md-5 col-sm-12 col-xs-12">
-        </div> -->
-<!-- <div class=" mobileImage col-lg-7 col-md-7 col-xl-7">
-          <img style=" position: absolute;
-          width: 400px;
-          height: 85%;
-          left: 339px;" src="../../assets/images/4.png">
-        </div> 
-      </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
     </div>
+    <div id="target" class="carousel-item"></div>
+    <div class="carousel-item"></div>
   </div>
-</div> -->
-
-
-<div class="container-fluid image">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div data-aos="zoom-in" data-aos-duration="3000" class="container-fluid image" style="margin-top: 50px;">
   <div class="overlay">
-
-    <p style="z-index: 2;">Year of smoking can cause damage to the lungs that can result in numerous problem including
-      irritation
-      and
-      consetion in the lungs shortness of breathing wheezing and mucus build up, after smoke help to cleans
-      and
-      edtox lungs from toxins and strengthens and rejuvenates your lungs</p>
+    <div class="container">
+      <p style="z-index: 2;">Year of smoking can cause damage to the lungs that can result in
+        numerous problem including
+        irritation
+        and
+        consetion in the lungs shortness of breathing wheezing and mucus build up, after smoke help to cleans
+        and
+        edtox lungs from toxins and strengthens and rejuvenates your lungs</p>
+    </div>
     <div class="buttonSection">
       <button routerLink="quit/wanttoquit">I WANT TO QUIT</button>
       <button routerLink="quit/recentlyquit">I RECENTLY QUIT</button>
       <button routerLink="quit/detoxifylungs">I DON'T WANT TO QUIT</button>
     </div>
   </div>
-
 </div>
-
-
 <app-info></app-info>
 <app-courses-we-offer></app-courses-we-offer>
 <app-blog></app-blog>
