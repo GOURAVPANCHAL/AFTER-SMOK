@@ -25,6 +25,7 @@ align-items: center;
   height: 100vh;
   position:relative;
  }
+ 
  /* .overlay{
      position: relative;
      height: 100%;
@@ -54,7 +55,46 @@ align-items: center;
   text-align: center;
   /* color: white; */
  }
+.quit-timing-image{
+  background-image: url(../../assets/images/g77556.png);
+  background-repeat: no-repeat;
+  height: 75vh;
+  background-size: contain;
+}
+.img1{
+  background-image: url(../../assets/images/pf-e1cfd3e8--dosage1.png);
+  height: 25vh;
+  width: 60vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.leaf{
+  background-image:url(../../assets/images/bottom-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.img2{
+  background-image: url(../../assets/images/pf-e1cfd3e8--dosage1.png);
+  height: 25vh;
+  width: 60vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 
+}
+.img3{
+  background-image: url(../../assets/images/pf-e1cfd3e8--dosage1.png);
+  height: 25vh;
+  width: 60vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.kick-the-but{
+  background-image: url(../../assets/images/kick-the-butt.png);
+  height: 30vh;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
  @media only screen and (max-width: 600px) {
  .imageheight{

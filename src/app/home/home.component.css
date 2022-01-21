@@ -23,19 +23,6 @@
   line-height: 1.2;
 }
 
-
-
-
-/* .main-section{
-    padding-top: 160px;
-  } */
-
-  p{
-    color: white;
-    font-size: 21px;
-    /* font-family: cursive; */
-    line-height: initial;
-}
 h1{
     color: white;
     background-color: #a1a1a1;
@@ -63,7 +50,6 @@ border-radius: 7px;
  .buttonSection button{
      /* position: absolute; */
      /* top: 21pc; */
-     z-index: 2;
      min-width: 20%;
      border: none;
      border-radius: 25px;
@@ -76,7 +62,6 @@ border-radius: 7px;
   background-color: #0554c6;
   color: white;
   font-size: 15px;
-
 }
 
 .buttonSection{
@@ -89,13 +74,12 @@ border-radius: 7px;
  }
  
  p{
-     font-size: 18px;
-     text-align: center;
-     color: white;
-     align-items: center;
-     z-index: 2;
+  color: black;
+  font-size: 25px;     
      padding: 7pc 0pc 14pc 0pc;
      letter-spacing: 2px;
+     line-height: initial;
+
  }
  
  @media only screen and (min-width: 300px) and (max-width: 640px) {
@@ -128,7 +112,7 @@ button{
 }
 
 .carousel .carousel-item:first-of-type {
-  background-image: url("../../assets/images/smoking-ge6181b756_640.jpg");
+  background-image: url("../../assets/images/nature-after-smoke.png");
 }
 
 .carousel .carousel-item:nth-of-type(2) {

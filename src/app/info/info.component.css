@@ -14,6 +14,13 @@
     height: 100%;
     width: 112%;
 }
+.newimg{
+    background-image: url(../../assets/images/doctor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
 .products{
     background-image: url(../../assets/images/drawing.png);
     height: 100vh;
@@ -22,6 +29,12 @@
     margin: 50px 0px  0px 0px;
     /* transition: width 2s, height 2s, transform 2s; */
 }
+
+.bottom-img{
+    background-image:url(../../assets/images/bottom-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
 /* .products:hover{
         transform: rotate(360deg);
