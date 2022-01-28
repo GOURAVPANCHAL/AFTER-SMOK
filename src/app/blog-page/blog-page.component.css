@@ -1,6 +1,10 @@
 .blog .cardHeading {
     margin-bottom: 0px;
   }
+  p{
+    line-height: 45px;
+
+  }
   
   .blog mat-card-content {
     padding: 16px 30px 35px 30px;
@@ -11,7 +15,7 @@
     font-size: 35px !important;
   }
   .cardshadow {
-    min-height: 180px;
+    min-height: 260px;
     cursor: pointer;
     margin-bottom: 30px;
     /* transition: transform 0.2s ease; */
@@ -20,11 +24,11 @@
       border: 0;
   }
   .header{
-      background-image: url(../../assets/images/spices.webp);
-      height: 76vh;
+      background-image: url(../../assets/images/happy-family.webp);
+      height: 100vh;
       width: 100%;
       background-size: cover;
-      background-position: bottom;
+      background-position: center;
   }
   
   @media only screen and (max-width: 600px) {

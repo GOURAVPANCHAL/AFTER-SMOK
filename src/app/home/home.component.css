@@ -105,22 +105,23 @@ button{
 
 
  .carousel .carousel-item {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .carousel .carousel-item:first-of-type {
-  background-image: url("../../assets/images/nature-after-smoke.png");
+  background-image: url("../../assets/images/image165027.png");
 }
 
 .carousel .carousel-item:nth-of-type(2) {
-  background-image: url("../../assets/images/man-g81b568bd5_640.jpg");
+  background-image: url("../../assets/images/insurance-1991216_960_720.jpg");
 }
 
 .carousel .carousel-item:last-of-type {
-  background-image: url("../../assets/images/kill-smoke.jpg");
+  background-image: url("../../assets/images/family-4787016_960_720.jpg");
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {

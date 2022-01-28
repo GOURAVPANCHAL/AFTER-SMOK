@@ -1,5 +1,7 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { MainServiceService } from '../services/main-service.service';
+import * as AOS from 'aos';
+
 
 @Component({
   selector: 'app-our-product',
@@ -22,6 +24,8 @@ export class OurProductComponent implements OnInit {
   ]
   constructor(public mainService: MainServiceService) { }
   ngOnInit(): void {
+    AOS.init();
+
   }
 
   addProduct(i) {
