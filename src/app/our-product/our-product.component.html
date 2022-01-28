@@ -16,25 +16,19 @@
     <div style="padding: 60px 0px 46px 0px;">
         <div class="product">
             <h2 class="sectionHeading" style="padding: 0PX;"><span class="mainTextColor">After</span> Smoke</h2>
-
             <h4 style="color: #001675;">Support your health on a molecular level.</h4>
         </div>
         <div class="row">
             <div class="col-md-6" *ngFor="let product of productList; let i = index">
                 <div class="row">
-
                     <div routerLink="/product-detail/{{product?.url}}" class="col-md-5 img1">
                         <img style="height: 23pc;
                         width: 100%;" [src]='product.img'>
                     </div>
-                    <!-- </ng-container> -->
                     <div class="col-xl-6">
                         <div>
-
                             <div class="alignment" style="padding-top: 43px;">
-
                                 <a href="/home" style="list-style-type: none;">Brand: After-Smoke</a>
-
                                 <h1 style="color: black;">{{product.heading}}</h1>
                                 <hr>
                                 <h3 style="color: black;"> {{product.desc}}</h3>

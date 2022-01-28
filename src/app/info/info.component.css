@@ -21,20 +21,20 @@
     height: 75vh;
 }
 
-.products{
+/* .products{
     background-image: url(../../assets/images/drawing.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     margin: 50px 0px  0px 0px;
-    /* transition: width 2s, height 2s, transform 2s; */
-}
+  transition: width 2s, height 2s, transform 2s; */
 
-.bottom-img{
+
+/* .bottom-img{
     background-image:url(../../assets/images/bottom-img.png);
     background-size: contain;
     background-repeat: no-repeat;
-  }
+  } */
 
 /* .products:hover{
         transform: rotate(360deg);

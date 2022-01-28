@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetApiService } from '../get-api.service';
 
 @Component({
   selector: 'app-about',
@@ -8,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   mobile = false
-  constructor() { }
+  data: any;
+  constructor(private getDataAPI: GetApiService) { }
 
   ngOnInit(): void {
+    this.getDataFromAPI()
+  }
+  getDataFromAPI() {
+    throw new Error('Method not implemented.');
   }
 
 }

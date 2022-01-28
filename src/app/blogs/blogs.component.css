@@ -1,0 +1,102 @@
+.foodimg{
+background-image: url(../../assets/images/foods.png);
+height: 100vh;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+.img1{
+    height: 60vh;
+    background-position: center;
+background-repeat: no-repeat;
+margin: 10px 10px 30px;
+max-width: 408px;
+padding: 0px
+}
+
+h1,h3{
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 40px;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.img1 img{
+    height: 65vh;
+    padding: 37px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  /* height: auto; */
+  transition: .5s ease;
+  /* backface-visibility: hidden; */
+}
+
+/* .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+.imagesection:hover .overlay {
+
+display: block;
+
+  /* background-color: #ecf5ead2; */
+}
+
+.imagesection .overlay {
+    position: absolute;
+top: 0;
+display: none;
+background-color: rgba(255, 255, 255, 0.5);
+left: 0;
+width: 100%;
+height: 92%;
+z-index: 2;
+  /* background-color: #ecf5ead2; */
+}
+
+.imagesection .text {
+    z-index: 3;
+    text-align: center;
+    display: none;
+    transition: 0.5s;
+background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 70%;
+    font-size: 25px;
+    color: #ffff;
+  }
+
+  .imagesection{
+      position: relative;
+  }
+  .imagesection:hover .text {
+    display: block;
+  }
+
+.imagesection:hover .middle {
+  opacity: 1;
+}
+
+/* .text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */

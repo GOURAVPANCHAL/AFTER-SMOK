@@ -1,0 +1,21 @@
+<div class="foodimg"></div>
+<div style="background: #ecf5ea;
+padding: 16px;">
+    <h1>Go Green. Go Natural</h1>
+    <p>Our ingredients are 100% natural and Ayurveda-based so that you explore the richness of good health</p>
+    <p>Here's all our secret ingredients and their plus points for your health</p>
+    <div class="row contain" style="margin: 16px;">
+        <div data-aos="zoom-in" data-aos-duration="2000" *ngFor="let image of images" class="col-md-4 img1"
+            style="background-color: white;">
+            <div class="imagesection">
+                <div class="overlay"></div>
+                <span class="text">{{image.name}}</span>
+                <img class="image" [src]='image.img'>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="middle">
+    <div class="text">John Doe</div>
+</div> -->
+<!-- <img src="../../assets/images/istockphoto-1300226690-170667a.jpg" alt="Avatar"  style="width:100%"> -->

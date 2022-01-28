@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -40,6 +39,9 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { QuitComponent } from './i-want-to-quit/quit.component';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
 
 
 @NgModule({
@@ -70,9 +72,12 @@ import { CommonModule } from '@angular/common';
     DontQuitComponent,
     RecentlyQuitComponent,
     BlogDetailComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    BlogsComponent,
+    BlogPageComponent
   ],
   imports: [
+    HttpClientModule,
     CommonModule,
     BrowserModule,
     AuthModule,

@@ -3,10 +3,10 @@
 }
 .navItem.active a {
   color: #0554c6;
+  font-weight: 600;
 }
 .navItem a{
- 
-  font-weight: 100;
+  font-weight: 600;
 }
 
 .navbar-toggler{

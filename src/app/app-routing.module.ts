@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
+import { BlogsComponent } from './blogs/blogs.component';
 import { CartComponent } from './cart/cart.component';
 import { ChangeContentComponent } from './change-content/change-content.component';
 import { ContactComponent } from './contact/contact.component';
@@ -72,8 +74,16 @@ const routes: Routes = [
     component: CartComponent
   },
   {
+    path: 'ingredients',
+    component: BlogsComponent
+  },
+  {
     path: 'blog/:id',
     component: BlogDetailComponent
+  },
+  {
+    path: 'blog',
+    component: BlogPageComponent
   },
   {
     path: 'product-detail/:id',
